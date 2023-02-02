@@ -1,0 +1,152 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Bree Serif";
+}
+.box-app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+@media screen and (min-width: 576px) {
+  .box-app-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.boxesContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+@media screen and (min-width: 576px) {
+  .boxesContainer {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    align-items: center;
+  }
+}
+.Box1 {
+  background-color: #fbbf24;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  font-size: 10px;
+}
+@media screen and (min-width: 576px) {
+  .Box1 {
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    margin-top: 60px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .Box1 {
+    height: 120px;
+    width: 120px;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    margin-top: 60px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .Box1 {
+    height: 140px;
+    width: 140px;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+
+    margin-top: 60px;
+  }
+}
+
+.Box2 {
+  background-color: #38bdf8;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+@media screen and (min-width: 576px) {
+  .Box2 {
+    height: 140px;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .Box2 {
+    height: 180px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .Box2 {
+    height: 220px;
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+}
+.Box3 {
+  background-color: #ec4899;
+  height: 130px;
+  width: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+@media screen and (min-width: 576px) {
+  .Box3 {
+    height: 160px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 992px) {
+  .Box3 {
+    height: 220px;
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .Box3 {
+    height: 260px;
+    width: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
